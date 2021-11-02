@@ -1,0 +1,408 @@
+/*Codigo de  los titulos*/
+
+.title{
+    text-align: center;
+}
+
+.title__second{
+    text-align: left;
+    padding-left: 40px;
+}
+
+.title__second--ejercice{
+    text-align: center;
+}
+
+.title__second--ejercice2{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Ejercicio 1*/
+
+.ejercicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ejercicio__fotos{
+    display: inline-block;
+    background-image: url("images/boton_normal.jpg");
+    width: 200px;
+    height: 200px;
+}
+
+.ejercicio__fotos:hover{
+    display: inline-block;
+    background-image: url("images/boton_con_foco.jpg");
+    width: 200px;
+    height: 200px;
+}
+
+.ejercicio__fotos:active{
+    display: inline-block;
+    background-image: url("images/boton_pulsado.jpg");
+    width: 200px;
+    height: 200px;
+}
+
+/*Ejercicio 2*/
+
+.circulos{
+    width: 35%;
+    margin: auto;
+    align-items: center;
+}
+
+.circulo__normal{
+    width: 200px;
+    height: 200px;
+    background-color: #f0e68c;
+    border-radius: 100%;
+    border-top-right-radius: 40%;
+    border:solid 2px black;
+    display: inline-block;
+    margin-right: 55px;
+}
+
+.circulo__normal--modificado{
+    width: 200px;
+    height: 200px;
+    background-color: #008000;
+    border-radius: 100%;
+    border:solid 2px red;
+    display: flex;
+    display: inline-block;
+}
+
+/*Ejercicio 3*/
+
+.container{
+    width: 1000px;
+    height: 700px;
+    justify-content: center;
+    margin: auto;
+    background-color: #f5f3f0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 
+}
+
+.container-title{
+    text-align: center;
+    color: #d2c0ad;
+    padding-top: 30px;
+}
+
+.name{
+    color: gray;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+form > *{
+    padding-left: 30px;
+}
+
+input, select{
+  width: 85%;
+  margin-left: 30px;
+  padding-left: 5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 60px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[id="mess"]{
+    width: 85%;
+    margin-left: 30px;
+    padding-left: 5px;
+    padding-top: 12px;
+    padding-bottom: 80px;
+    padding-right: 60px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn{
+    border-color: black;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    border-width: 15px;
+    padding-left: 5px;
+    margin: 30px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+/*Ejercicio 4*/
+
+.container2{
+    justify-content: center;
+    margin: auto;
+    background-color: #f3f3f3;
+    width: 50%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container2-head{
+    color: white;
+    background-color: #2d5e65;
+    border-bottom: solid #2d5e65;
+    font-size: 30px;
+}
+
+.container2-col{
+    background-color: #d2d2d2;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.btn2{
+    background-color: #5fb15c;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn2:hover{
+    cursor: pointer;
+}
+
+table:nth-of-type(2) > td{
+    border: black solid 1px;
+}
+
+/*Ejercicio 4b)*/
+
+.container3{
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    border-collapse: collapse;
+    border: solid black 1px;
+}
+
+.container3 td{
+    border: black solid 1px;
+}
+
+.container3-title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: yellow;
+    color: black;
+}
+
+.container-trpink{
+    background-color: pink;
+}
+
+.container-trgray{
+    background-color: #808080;
+}
+
+/*Ejercicio 4c)*/
+
+.container4{
+    justify-content: center;
+    margin: auto;
+    width: 60vw;
+    height: 60vh;
+    text-align: center;
+    border-collapse: collapse;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container4-title{
+    background-color: #005c8b;
+    color:#fff;
+}
+
+thead > td{
+    font-size: 1000px;
+}
+
+td > img{
+    width: 35px;
+}
+
+.container4-col{
+    background-color: #fff;
+    text-align: left;
+}
+
+.container4-col-mod{
+    background-color: #e0edf3;
+    text-align: left;
+}
+
+.container4-col-btn{
+    text-align: right;
+    background-color: #e0edf3;
+    color: #fff;
+    padding-right: 30px;
+}
+
+.btn4{
+    background-color: #005e8d;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn4:hover{
+    cursor: pointer;
+}
+
+/*Ejercicio 5*/
+
+.container5{
+    width: 1000px;
+    height: 600px;
+    justify-content: center;
+    margin: auto;
+    background-color: #f5f3f0;
+    background: url(images/top-left.png) no-repeat left top, url(images/bottom-right.png) no-repeat bottom right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.p2{
+    color: orange;
+    padding-top: 150px;
+    height: 60px;
+    font-size: 45px;
+    text-align: center;
+}
+
+/*Ejercicio 6*/
+
+.headerdiv{
+    justify-content: center;
+    margin: auto;
+    width: 30vw;
+}
+
+.headerdiv2 > img{
+    justify-content: center;
+    margin: auto;
+    width: 400px;
+    height: 125px;
+}
+
+/*Ejercicio 7*/
+
+.menunav{
+    background-color: #414144;
+    width: 400px;
+    justify-content: center;
+    margin: auto;
+}
+
+.menunav img{
+    padding-left: 250px;
+    width: 20px;
+}
+
+.menunav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menunav ul li{
+    padding: 10px;
+}
+
+.menunav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.menunav ul li:first-child{
+    background-color: #779d00;
+}
+
+/*Ejercicio 7b)*/
+
+.menunav2{
+    background-color: #f7f7f7;
+    width: 200px;
+    justify-content: center;
+    margin: auto;
+}
+
+.menunav2 img{
+    width: 20px;
+    padding-right: 20px;
+}
+
+.menunav2 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menunav2 ul li a{
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+.menunav2 ul li{
+    border: 1px solid black;
+}
+
+.menunav2 li:hover{
+    background-color: #e8e6e7;
+}
+
+/*Ejercicio 8*/
+
+.menunav3{
+    background-color: #98bf21;
+}
+
+.menunav3 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menunav3 ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.menunav3 ul li a{
+    color: white;
+    display: block;
+    padding: 20px 80px;
+    text-decoration: none;
+}
+
+.menunav3 ul li a:hover{
+    background-color: #7a991a;
+}
